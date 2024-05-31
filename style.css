@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.sectionOne {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 20px 10%;
+    gap: 100px;
+}
+
+.leftDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text h1 {
+    font-size: 40px;
+    line-height: 45px;
+    color: #40196d;
+}
+
+.text p {
+    padding: 20px 0;
+    font-size: 15px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 35px;
+}
+
+.button button{
+display: flex;
+align-items: center;
+background-color: black;
+color: white;
+border: none;
+border-radius: 8px;
+padding: 5px 10px;
+cursor: pointer;
+}
+
+.button button div i{
+  font-size: 20px;
+}
+
+.button button div p{
+    font-size: 10px;
+}
+
+.button button div h3{
+    font-size: 15px;
+}
+
+.button button:hover{
+  transform: scale(1.1) ;
+  transition: all ease 0.8s;
+}
+
+.rightDiv {
+    width: fit-content;
+}
+
+.rightDiv img {
+    width: 150%;
+}
+
+
+
+.sectionTwo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80% ;
+    width: 100%;
+    padding: 20px 12%;
+    gap: 50px;
+}
+
+.leftDiv2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text2 h1{
+    font-size: 35px;
+    
+    line-height: 40px;
+    color: #40196d;
+}
+
+.text2 p{
+    font-size: 15px;
+    text-align: left;
+    padding: 20px 0;
+}
+
+.rightDiv2{
+    width: fit-content;
+}
+
+.rightDiv2 img {
+    width: 150px;
+}
+
+.text3 {
+    text-decoration: underline;
+    color: #40196d;
+    font-size: 15px;
+    
+}
+
+.sectionThree {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10% 15px;
+    height: 80%;
+    width: 100%;
+    gap: 100px;
+}
+
+
+.leftDiv3 {
+    width: fit-content;
+}
+
+.leftDiv3 img {
+    width: 200px;
+}
+
+.rightDiv3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rightDiv3 h1 {
+    font-size: 35px;
+    line-height: 50px;
+    color: #40196d;
+}
+
+.rightDiv3 p {
+    font-size: 15px;
+    text-align: left;
+    padding: 20px 0px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 0 4px;
+    z-index: 100;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+
+}
+
+.leftNav{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.navImage{
+    width: 13%;
+}
+
+.navImage img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.leftNav ul{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    list-style: none;
+    color: #40196d;
+    font-size: 15px;
+}
+
+.leftNav ul li{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.leftNav  ul .dropDown{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.dropDown ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    display: none;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: fit-content;
+}
+
+.dropDown :hover ul {
+    display: block;
+}
+
+.rightNav{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.rightNav .logo{
+    width: 50px;
+    background-color: rgb(red, green, blue);
+    padding: 10px 10px;
+    border-radius: 50%;
+    padding-top: 1px;
+    
+}
+
+.rightNav .logo img {
+    width: 100%;
+    padding-top: 1px;
+    border-radius: 5px;
+    height: 25px;
+    
+}
+
+.rightNav button{
+    background-color: #40196d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 10px bold;
+    
+}
+
+.rightNav h5{
+    color: #40196d;
+    font-size: 15px;
+}
+
+
+/* .navOne{
+    height: fit-content;
+    width: 100%;
+}
+
+.dropDown{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+    position: relative;
+}
+
+.dropDown button{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.dropDown ul{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    display: none;
+    position: absolute;
+    top: 35px;
+
+}
+
+.dropDown:hover ul{
+    display: block; 
+/* } */
